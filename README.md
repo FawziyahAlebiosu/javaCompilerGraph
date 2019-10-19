@@ -1,0 +1,2 @@
+# javaCompilerGraph
+The third project, for my Data Structures course, is built in Java. It simulates how Java compiles classes, by building a graph of classes that depend on each other. Once the user enters a file with the list of classes, it utilizes that information to build the graph, asks for the class the user wishes to compile, then does a Depth-First-Search for the class inside the graph. Once it finds it, it returns the topological order of that  class, and every other class that class depends on.
